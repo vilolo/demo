@@ -60,6 +60,20 @@
                             ],
                         ],
                     ],
+                    [
+                        'label' => 'Admin',
+                        'icon' => 'share',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Index', 'icon' => 'file-code-o', 'url' => ['/admin'],],
+                            ['label' => 'route', 'icon' => 'dashboard', 'url' => ['/admin/route'],],
+                            ['label' => 'permission', 'icon' => 'dashboard', 'url' => ['/admin/permission'],],
+                            ['label' => 'menu', 'icon' => 'dashboard', 'url' => ['/admin/menu'],],
+                            ['label' => 'role', 'icon' => 'dashboard', 'url' => ['/admin/role'],],
+                            ['label' => 'assignment', 'icon' => 'dashboard', 'url' => ['/admin/assignment'],],
+                            ['label' => 'user', 'icon' => 'dashboard', 'url' => ['/admin/user'],],
+                        ],
+                    ],
                 ],
             ]
         ) ?>
