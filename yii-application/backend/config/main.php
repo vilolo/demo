@@ -22,7 +22,8 @@ return [
         ],
         'user' => [
             'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
+            'enableAutoLogin' => false,
+            'loginUrl' => ['site/login'],
             'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
         ],
         'session' => [
@@ -45,8 +46,8 @@ return [
         'as access' => [
             'class' => 'mdm\admin\components\AccessControl',
             'allowActions' => [
-                'site/*',
-                'admin/*',
+                //'site/*',
+                //'admin/*',
                 'some-controller/some-action',
                 // The actions listed here will be allowed to everyone including guests.
                 // So, 'admin/*' should not appear here in the production, of course.
@@ -56,14 +57,13 @@ return [
             ]
         ],
 
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];
