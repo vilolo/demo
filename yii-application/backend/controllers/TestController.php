@@ -62,6 +62,7 @@ class TestController extends Controller
         $result = curl_exec($ch);
         $data = str_replace("\&quot;",'"',$result );
         $data = json_decode($data,true);
+        print_r($data);die();
         foreach ($data as $k => $v){
 
         }

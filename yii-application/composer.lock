@@ -4,23 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b03a9020ed025e83f966fc2d6b07c5b0",
+    "content-hash": "d8345542324debc6db449bec66c43714",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
-            "version": "v2.4.3",
+            "version": "v2.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "b3acb63ac56b13eb45b36e628b384a9a2507b50e"
+                "reference": "d9e68301848a95dff2e2dbef6569e617a9b3fa30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/almasaeed2010/AdminLTE/b3acb63ac56b13eb45b36e628b384a9a2507b50e.zip",
-                "reference": "b3acb63ac56b13eb45b36e628b384a9a2507b50e",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/d9e68301848a95dff2e2dbef6569e617a9b3fa30",
+                "reference": "d9e68301848a95dff2e2dbef6569e617a9b3fa30",
                 "shasum": ""
             },
             "require": {
+                "bower-asset/jquery": ">=1.9.0 <4.0.0",
                 "composer/installers": "1.*"
             },
             "type": "template",
@@ -47,7 +48,50 @@
                 "theme",
                 "web"
             ],
-            "time": "2018-02-04T12:54:57+00:00"
+            "time": "2018-07-15T18:48:11+00:00"
+        },
+        {
+            "name": "bizley/migration",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bizley/yii2-migration.git",
+                "reference": "65f5581a3c2a93cd654829433ea5ff47b3894e78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bizley/yii2-migration/zipball/65f5581a3c2a93cd654829433ea5ff47b3894e78",
+                "reference": "65f5581a3c2a93cd654829433ea5ff47b3894e78",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": ">=2.0.11 <2.1.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bizley\\migration\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pawel Bizley Brzozowski",
+                    "email": "pawel@positive.codes"
+                }
+            ],
+            "description": "Migration generator for Yii 2.",
+            "keywords": [
+                "console",
+                "generator",
+                "migrate",
+                "migration",
+                "yii2"
+            ],
+            "time": "2018-07-01T14:37:16+00:00"
         },
         {
             "name": "bower-asset/blueimp-canvas-to-blob",
@@ -67,16 +111,16 @@
         },
         {
             "name": "bower-asset/blueimp-file-upload",
-            "version": "v9.21.0",
+            "version": "v9.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/jQuery-File-Upload.git",
-                "reference": "e6f059023afdae3efe9ce66970745254caa80256"
+                "reference": "39607fdaaba0dc11ba8c116ac2968e28e796f153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/e6f059023afdae3efe9ce66970745254caa80256",
-                "reference": "e6f059023afdae3efe9ce66970745254caa80256",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/39607fdaaba0dc11ba8c116ac2968e28e796f153",
+                "reference": "39607fdaaba0dc11ba8c116ac2968e28e796f153",
                 "shasum": null
             },
             "require": {
@@ -190,7 +234,7 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bestiejs/punycode.js.git",
+                "url": "git@github.com:bestiejs/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
@@ -233,7 +277,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/cebe/markdown/25b28bae8a6f185b5030673af77b32e1163d5c6e.zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/25b28bae8a6f185b5030673af77b32e1163d5c6e",
                 "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e",
                 "shasum": ""
             },
@@ -294,7 +338,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/cebe/yii2-gravatar/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057.zip",
+                "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
                 "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
                 "shasum": ""
             },
@@ -336,7 +380,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/composer/installers/049797d727261bf27f2690430d935067710049c2.zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
                 "reference": "049797d727261bf27f2690430d935067710049c2",
                 "shasum": ""
             },
@@ -448,16 +492,16 @@
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmstr/yii2-adminlte-asset.git",
-                "reference": "1a7649cfd493faf10e797eaa8eb19ac5e81523af"
+                "reference": "613821a6b0b805aa8fddc0d47b0ab6bb3a3e0456"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/dmstr/yii2-adminlte-asset/1a7649cfd493faf10e797eaa8eb19ac5e81523af.zip",
-                "reference": "1a7649cfd493faf10e797eaa8eb19ac5e81523af",
+                "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/613821a6b0b805aa8fddc0d47b0ab6bb3a3e0456",
+                "reference": "613821a6b0b805aa8fddc0d47b0ab6bb3a3e0456",
                 "shasum": ""
             },
             "require": {
@@ -504,7 +548,7 @@
                 "theme",
                 "yii2"
             ],
-            "time": "2017-12-05T15:17:33+00:00"
+            "time": "2018-07-06T08:48:15+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -516,7 +560,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/doctrine/lexer/83893c552fd2045dd78aef794c31e694c37c0b8c.zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
                 "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
                 "shasum": ""
             },
@@ -570,7 +614,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/egulias/EmailValidator/8790f594151ca6a2010c6218e09d96df67173ad3.zip",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/8790f594151ca6a2010c6218e09d96df67173ad3",
                 "reference": "8790f594151ca6a2010c6218e09d96df67173ad3",
                 "shasum": ""
             },
@@ -627,7 +671,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ezyang/htmlpurifier/d85d39da4576a6934b72480be6978fb10c860021.zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
                 "reference": "d85d39da4576a6934b72480be6978fb10c860021",
                 "shasum": ""
             },
@@ -674,7 +718,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/FortAwesome/Font-Awesome/a8386aae19e200ddb0f6845b5feeee5eb7013687.zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
                 "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
                 "shasum": ""
             },
@@ -722,7 +766,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/BigKuCha/yii2-ueditor-widget/59e4ab2533bec1b182ce38241a1567e78d57a509.zip",
+                "url": "https://api.github.com/repos/BigKuCha/yii2-ueditor-widget/zipball/59e4ab2533bec1b182ce38241a1567e78d57a509",
                 "reference": "59e4ab2533bec1b182ce38241a1567e78d57a509",
                 "shasum": ""
             },
@@ -755,7 +799,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/mdmsoft/yii2-admin/48298cb2891f728ae93e59f75802607f0ed910f5.zip",
+                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/48298cb2891f728ae93e59f75802607f0ed910f5",
                 "reference": "48298cb2891f728ae93e59f75802607f0ed910f5",
                 "shasum": ""
             },
@@ -813,7 +857,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/moonlandsoft/yii2-phpexcel/9408d09abc7ff4828302dafd5ffb709314f14589.zip",
+                "url": "https://api.github.com/repos/moonlandsoft/yii2-phpexcel/zipball/9408d09abc7ff4828302dafd5ffb709314f14589",
                 "reference": "9408d09abc7ff4828302dafd5ffb709314f14589",
                 "shasum": ""
             },
@@ -858,7 +902,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/PHPOffice/PHPExcel/372c7cbb695a6f6f1e62649381aeaa37e7e70b32.zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
                 "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
                 "shasum": ""
             },
@@ -916,7 +960,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/rmrevin/yii2-fontawesome/65ce306da864f4d558348aeba040ed7876878090.zip",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/65ce306da864f4d558348aeba040ed7876878090",
                 "reference": "65ce306da864f4d558348aeba040ed7876878090",
                 "shasum": ""
             },
@@ -960,16 +1004,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.0.2",
+            "version": "v6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc"
+                "reference": "7d760881d266d63c5e7a1155cbcf2ac656a31ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/swiftmailer/swiftmailer/412333372fb6c8ffb65496a2bbd7321af75733fc.zip",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/7d760881d266d63c5e7a1155cbcf2ac656a31ca8",
+                "reference": "7d760881d266d63c5e7a1155cbcf2ac656a31ca8",
                 "shasum": ""
             },
             "require": {
@@ -980,10 +1024,14 @@
                 "mockery/mockery": "~0.9.1",
                 "symfony/phpunit-bridge": "~3.3@dev"
             },
+            "suggest": {
+                "ext-intl": "Needed to support internationalized email addresses",
+                "true/punycode": "Needed to support internationalized email addresses, if ext-intl is not installed"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.1-dev"
                 }
             },
             "autoload": {
@@ -1005,13 +1053,13 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.symfony.com",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-09-30T22:39:41+00:00"
+            "time": "2018-07-13T07:04:35+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -1023,7 +1071,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-framework/ed3a9e1c4abe206e1c3ce48a6b3624119b79850d.zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ed3a9e1c4abe206e1c3ce48a6b3624119b79850d",
                 "reference": "ed3a9e1c4abe206e1c3ce48a6b3624119b79850d",
                 "shasum": ""
             },
@@ -1123,7 +1171,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-bootstrap/3f49c47924bb9fa5363c3fc7b073d954168cf438.zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/3f49c47924bb9fa5363c3fc7b073d954168cf438",
                 "reference": "3f49c47924bb9fa5363c3fc7b073d954168cf438",
                 "shasum": ""
             },
@@ -1175,16 +1223,16 @@
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "163419f1f197e02f015713b0d4f85598d8f8aa80"
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-composer/163419f1f197e02f015713b0d4f85598d8f8aa80.zip",
-                "reference": "163419f1f197e02f015713b0d4f85598d8f8aa80",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/1439e78be1218c492e6cde251ed87d3f128b9534",
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534",
                 "shasum": ""
             },
             "require": {
@@ -1225,7 +1273,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2018-03-21T16:15:55+00:00"
+            "time": "2018-07-05T15:44:47+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -1237,7 +1285,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-swiftmailer/fd917fbe63b7ea796c52902143b83b98e65bfb73.zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/fd917fbe63b7ea796c52902143b83b98e65bfb73",
                 "reference": "fd917fbe63b7ea796c52902143b83b98e65bfb73",
                 "shasum": ""
             },
@@ -1359,26 +1407,26 @@
         },
         {
             "name": "codeception/base",
-            "version": "2.4.1",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/base.git",
-                "reference": "fb07b713f2a97cdf0c5c81c93fa26a0785eb44a6"
+                "reference": "ed252a26bbb939e9c55465dbec4a0c7481728023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Codeception/base/fb07b713f2a97cdf0c5c81c93fa26a0785eb44a6.zip",
-                "reference": "fb07b713f2a97cdf0c5c81c93fa26a0785eb44a6",
+                "url": "https://api.github.com/repos/Codeception/base/zipball/ed252a26bbb939e9c55465dbec4a0c7481728023",
+                "reference": "ed252a26bbb939e9c55465dbec4a0c7481728023",
                 "shasum": ""
             },
             "require": {
                 "behat/gherkin": "^4.4.0",
                 "codeception/phpunit-wrapper": "^6.0.9|^7.0.6",
-                "codeception/stub": "^1.0",
+                "codeception/stub": "^2.0",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "guzzlehttp/psr7": "~1.0",
-                "php": ">=5.4.0 <8.0",
+                "php": ">=5.6.0 <8.0",
                 "symfony/browser-kit": ">=2.7 <5.0",
                 "symfony/console": ">=2.7 <5.0",
                 "symfony/css-selector": ">=2.7 <5.0",
@@ -1444,20 +1492,20 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2018-03-31T22:36:34+00:00"
+            "time": "2018-07-16T09:12:13+00:00"
         },
         {
             "name": "codeception/phpunit-wrapper",
-            "version": "6.0.9",
+            "version": "6.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/phpunit-wrapper.git",
-                "reference": "450f1cfc5f49539c421061e64338f5edb8baad6a"
+                "reference": "7057e599d97b02b4efb009681a43b327dbce138a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Codeception/phpunit-wrapper/450f1cfc5f49539c421061e64338f5edb8baad6a.zip",
-                "reference": "450f1cfc5f49539c421061e64338f5edb8baad6a",
+                "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/7057e599d97b02b4efb009681a43b327dbce138a",
+                "reference": "7057e599d97b02b4efb009681a43b327dbce138a",
                 "shasum": ""
             },
             "require": {
@@ -1490,20 +1538,20 @@
                 }
             ],
             "description": "PHPUnit classes used by Codeception",
-            "time": "2018-03-31T18:50:01+00:00"
+            "time": "2018-06-20T20:08:14+00:00"
         },
         {
             "name": "codeception/stub",
-            "version": "1.0.2",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Stub.git",
-                "reference": "95fb7a36b81890dd2e5163e7ab31310df6f1bb99"
+                "reference": "b2eff325d8ff0b824ff659048be7be4e5767d7d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Codeception/Stub/95fb7a36b81890dd2e5163e7ab31310df6f1bb99.zip",
-                "reference": "95fb7a36b81890dd2e5163e7ab31310df6f1bb99",
+                "url": "https://api.github.com/repos/Codeception/Stub/zipball/b2eff325d8ff0b824ff659048be7be4e5767d7d0",
+                "reference": "b2eff325d8ff0b824ff659048be7be4e5767d7d0",
                 "shasum": ""
             },
             "require": {
@@ -1523,7 +1571,7 @@
                 "MIT"
             ],
             "description": "Flexible Stub wrapper for PHPUnit's Mock Builder",
-            "time": "2018-02-18T13:56:56+00:00"
+            "time": "2018-05-18T14:33:08+00:00"
         },
         {
             "name": "codeception/verify",
@@ -1617,16 +1665,16 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/fzaninotto/Faker/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d.zip",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "shasum": ""
             },
             "require": {
@@ -1634,7 +1682,7 @@
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "^4.0 || ^5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
                 "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
@@ -1663,7 +1711,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-08-15T16:48:10+00:00"
+            "time": "2018-07-12T10:23:15+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2381,16 +2429,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.5.8",
+            "version": "6.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b"
+                "reference": "093ca5508174cd8ab8efe44fd1dde447adfdec8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit/4f21a3c6b97c42952fd5c2837bb354ec0199b97b.zip",
-                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/093ca5508174cd8ab8efe44fd1dde447adfdec8f",
+                "reference": "093ca5508174cd8ab8efe44fd1dde447adfdec8f",
                 "shasum": ""
             },
             "require": {
@@ -2461,20 +2509,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-04-10T11:38:34+00:00"
+            "time": "2018-07-03T06:40:40+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "5.0.6",
+            "version": "5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf"
+                "reference": "6f9a3c8bf34188a2b53ce2ae7a126089c53e0a9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/sebastianbergmann/phpunit-mock-objects/33fd41a76e746b8fa96d00b49a23dadfa8334cdf.zip",
-                "reference": "33fd41a76e746b8fa96d00b49a23dadfa8334cdf",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/6f9a3c8bf34188a2b53ce2ae7a126089c53e0a9f",
+                "reference": "6f9a3c8bf34188a2b53ce2ae7a126089c53e0a9f",
                 "shasum": ""
             },
             "require": {
@@ -2520,7 +2568,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2018-01-06T05:45:45+00:00"
+            "time": "2018-07-13T03:27:23+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3180,7 +3228,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -3188,7 +3236,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/browser-kit/840bb6f0d5b3701fd768b68adf7193c2d0f98f79.zip",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/840bb6f0d5b3701fd768b68adf7193c2d0f98f79",
                 "reference": "840bb6f0d5b3701fd768b68adf7193c2d0f98f79",
                 "shasum": ""
             },
@@ -3237,16 +3285,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "5b1fdfa8eb93464bcc36c34da39cedffef822cdf"
+                "reference": "1b97071a26d028c9bd4588264e101e14f6e7cd00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/console/5b1fdfa8eb93464bcc36c34da39cedffef822cdf.zip",
-                "reference": "5b1fdfa8eb93464bcc36c34da39cedffef822cdf",
+                "url": "https://api.github.com/repos/symfony/console/zipball/1b97071a26d028c9bd4588264e101e14f6e7cd00",
+                "reference": "1b97071a26d028c9bd4588264e101e14f6e7cd00",
                 "shasum": ""
             },
             "require": {
@@ -3302,20 +3350,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T01:22:56+00:00"
+            "time": "2018-05-23T05:02:55+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "519a80d7c1d95c6cc0b67f686d15fe27c6910de0"
+                "reference": "d2ce52290b648ae33b5301d09bc14ee378612914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/css-selector/519a80d7c1d95c6cc0b67f686d15fe27c6910de0.zip",
-                "reference": "519a80d7c1d95c6cc0b67f686d15fe27c6910de0",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/d2ce52290b648ae33b5301d09bc14ee378612914",
+                "reference": "d2ce52290b648ae33b5301d09bc14ee378612914",
                 "shasum": ""
             },
             "require": {
@@ -3355,20 +3403,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T22:32:39+00:00"
+            "time": "2018-05-16T12:49:49+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "1b95888cfd996484527cb41e8952d9a5eaf7454f"
+                "reference": "47e6788c5b151cf0cfdf3329116bf33800632d75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/debug/1b95888cfd996484527cb41e8952d9a5eaf7454f.zip",
-                "reference": "1b95888cfd996484527cb41e8952d9a5eaf7454f",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/47e6788c5b151cf0cfdf3329116bf33800632d75",
+                "reference": "47e6788c5b151cf0cfdf3329116bf33800632d75",
                 "shasum": ""
             },
             "require": {
@@ -3411,24 +3459,25 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T16:53:52+00:00"
+            "time": "2018-06-25T11:10:40+00:00"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "1a4cffeb059226ff6bee9f48acb388faf674afff"
+                "reference": "201b210fafcdd193c1e45b2994bf7133fb6263e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/dom-crawler/1a4cffeb059226ff6bee9f48acb388faf674afff.zip",
-                "reference": "1a4cffeb059226ff6bee9f48acb388faf674afff",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/201b210fafcdd193c1e45b2994bf7133fb6263e8",
+                "reference": "201b210fafcdd193c1e45b2994bf7133fb6263e8",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -3467,11 +3516,11 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T22:32:39+00:00"
+            "time": "2018-05-01T22:53:27+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3479,7 +3528,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/event-dispatcher/fdd5abcebd1061ec647089c6c41a07ed60af09f8.zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/fdd5abcebd1061ec647089c6c41a07ed60af09f8",
                 "reference": "fdd5abcebd1061ec647089c6c41a07ed60af09f8",
                 "shasum": ""
             },
@@ -3534,16 +3583,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "bd14efe8b1fabc4de82bf50dce62f05f9a102433"
+                "reference": "3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/finder/bd14efe8b1fabc4de82bf50dce62f05f9a102433.zip",
-                "reference": "bd14efe8b1fabc4de82bf50dce62f05f9a102433",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394",
+                "reference": "3a8c3de91d2b2c68cd2d665cf9d00f7ef9eaa394",
                 "shasum": ""
             },
             "require": {
@@ -3579,7 +3628,62 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04T05:07:11+00:00"
+            "time": "2018-06-19T20:52:10+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-04-30T19:57:29+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3642,20 +3746,21 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.9",
+            "version": "v3.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "033cfa61ef06ee0847e056e530201842b6e926c3"
+                "reference": "c5010cc1692ce1fa328b1fb666961eb3d4a85bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/yaml/033cfa61ef06ee0847e056e530201842b6e926c3.zip",
-                "reference": "033cfa61ef06ee0847e056e530201842b6e926c3",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c5010cc1692ce1fa328b1fb666961eb3d4a85bb0",
+                "reference": "c5010cc1692ce1fa328b1fb666961eb3d4a85bb0",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8"
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
                 "symfony/console": "<3.4"
@@ -3696,7 +3801,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-08T08:21:29+00:00"
+            "time": "2018-05-03T23:18:14+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -3884,22 +3989,22 @@
         },
         {
             "name": "yiisoft/yii2-gii",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "db41f647d9b73702ceb6864fdfce827a72b5ce42"
+                "reference": "9ec1374d0844f448d2af29c707f77c9f8d1375c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-gii/db41f647d9b73702ceb6864fdfce827a72b5ce42.zip",
-                "reference": "db41f647d9b73702ceb6864fdfce827a72b5ce42",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/9ec1374d0844f448d2af29c707f77c9f8d1375c8",
+                "reference": "9ec1374d0844f448d2af29c707f77c9f8d1375c8",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
                 "phpspec/php-diff": ">=1.0.2",
-                "yiisoft/yii2": "~2.0.13",
+                "yiisoft/yii2": "~2.0.14",
                 "yiisoft/yii2-bootstrap": "~2.0.0"
             },
             "type": "yii2-extension",
@@ -3914,7 +4019,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\gii\\": ""
+                    "yii\\gii\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3933,7 +4038,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-12-22T23:53:06+00:00"
+            "time": "2018-05-02T22:05:25+00:00"
         }
     ],
     "aliases": [],
